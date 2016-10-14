@@ -1,0 +1,18 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+   .thumbnail {
+      background-color: #dff0d8;
+      text-align: justify;
+      height: 245px;
+   }
+}
